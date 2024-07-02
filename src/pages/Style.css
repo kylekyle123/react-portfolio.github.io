@@ -1,0 +1,120 @@
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  background: rgb(255, 255, 255);
+}
+
+.box {
+  width: 70vw;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+#projects {
+  background: #53535316;
+}
+
+.fs-10 {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.bold-700 {
+  font-weight: 700;
+}
+
+.btn:hover {
+  box-shadow: none;
+  transition: ease-in-out 0.5s;
+}
+
+.text-purple {
+  color: purple;
+}
+
+.transform-image {
+  width: 70%;
+  transition: transform 1.5s ease-in-out;
+}
+
+.transform-image:hover {
+  transform: scale(1.4);
+}
+/* .profile {
+  border-radius: 80%;
+} */
+
+.main-container {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.experience-container {
+  padding: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.experience-col {
+  background-color: #343a40;
+  margin-top: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.experience-text {
+  padding: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project-image img {
+  transform: scale(1.1);
+  float: right;
+  padding: 3rem;
+}
+
+.details-container {
+  padding: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.border-top {
+  border-top: 1px solid #ccc;
+  margin-top: 1rem;
+}
+
+/* experience */
+.animated-text {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  animation-delay: 1s;
+}
+
+.animated-image {
+  opacity: 0;
+  transform: translateX(100px);
+  animation: fadeInMove 2s forwards;
+  animation-delay: 2s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInMove {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
