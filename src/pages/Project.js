@@ -17,7 +17,7 @@ function Project() {
           <h2>Project 1</h2>
           <Row className="gap-2">
             <Col className="col-12 bg-dark mt-4 overflow-hidden position-relative">
-              <a href="#" rel="noreferrer">
+              <a href="no link" rel="noreferrer">
                 <div className="p-5 position-absolute top-0 start-0">
                   <h3 className="text-white fw-bold">
                     <i>WEBSITE</i>
@@ -38,7 +38,7 @@ function Project() {
           <h2>Project 2</h2>
           <Row>
             <Col className="col-12 bg-dark mt-4 overflow-hidden position-relative">
-              <a href="#" rel="noreferrer">
+              <a href="no link" rel="noreferrer">
                 <div className="p-5 position-absolute top-0 start-0">
                   <h3 className="text-white fw-bold">
                     <i>Student Internship</i>
@@ -62,7 +62,7 @@ function Project() {
           <h2>Project 3</h2>
           <Row>
             <Col className="col-12 bg-dark mt-4 overflow-hidden position-relative">
-              <a href="#" rel="noreferrer">
+              <a href="no link" rel="noreferrer">
                 <div className="p-5 position-absolute top-0 start-0">
                   <h3 className="text-white fw-bold">
                     <i>Personal Portfolio</i>

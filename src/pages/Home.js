@@ -64,7 +64,7 @@ function Home() {
             </Row>
             <Row className="gap-2">
               <Col className="col-12 bg-dark mt-4 overflow-hidden position-relative">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="no link" target="_blank" rel="noreferrer">
                   <div className="p-5 position-absolute top-25 start-25">
                     <h3 className="text-white fw-bold">
                       <i>WEBSITE</i>
@@ -80,7 +80,7 @@ function Home() {
                 </a>
               </Col>
               <Col className="col-12 bg-dark mt-4 overflow-hidden position-relative">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href=" no link" target="_blank" rel="noreferrer">
                   <div className="p-5 position-absolute top-25 start-25">
                     <h3 className="text-white fw-bold">
                       <i>Student Internship</i>
@@ -99,7 +99,7 @@ function Home() {
                 </a>
               </Col>
               <Col className="col-12 bg-dark mt-4 overflow-hidden position-relative">
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="no link" target="_blank" rel="noreferrer">
                   <div className="p-5 position-absolute top-25 start-25">
                     <h3 className="text-white fw-bold">
                       <i>Personal Portfolio</i>
