@@ -17,29 +17,27 @@ function Project() {
         <li>
           <Row className="gap-2">
             <Col className="col-12 bg-dark mt-4 overflow-hidden position-relative">
-              <a href="#" rel="noreferrer">
-                <div className="p-5 position-absolute top-0 start-0 animated-text">
-                  <h3 className="text-white fw-bold">
-                    <i>
-                      This photo captures <br /> us crimping a LAN
-                      <br /> cable and installing
-                      <br /> Wi-Fi at the DPWH,
-                      <br /> showcasing our
-                      <br /> practical involvement
-                      <br /> in network
-                      <br /> setup and
-                      <br /> configuration.
-                    </i>
-                  </h3>
-                </div>
-                <div className="project-image animated-image">
-                  <img
-                    src={experience123}
-                    className="float-end p-5"
-                    alt="Experience at DPWH"
-                  />
-                </div>
-              </a>
+              <div className="p-5 position-absolute top-0 start-0 animated-text">
+                <h3 className="text-white fw-bold">
+                  <i>
+                    This photo captures <br /> us crimping a LAN
+                    <br /> cable and installing
+                    <br /> Wi-Fi at the DPWH,
+                    <br /> showcasing our
+                    <br /> practical involvement
+                    <br /> in network
+                    <br /> setup and
+                    <br /> configuration.
+                  </i>
+                </h3>
+              </div>
+              <div className="project-image animated-image">
+                <img
+                  src={experience123}
+                  className="float-end p-5"
+                  alt="Experience at DPWH"
+                />
+              </div>
             </Col>
           </Row>
         </li>
