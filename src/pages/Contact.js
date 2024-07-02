@@ -15,7 +15,7 @@ function Contact() {
             <h5>Email:</h5>
           </Form.Label>
           <h6>
-            <a href="https://www.tiktok.com/@jalapakyle?lang=en">
+            <a href="https://www.tiktok.com/@jalapakyle">
               jalapakyle9@gmail.com
             </a>
           </h6>
