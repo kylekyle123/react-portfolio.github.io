@@ -17,20 +17,18 @@ function Project() {
           <h2>Project 1</h2>
           <Row className="gap-2">
             <Col className="col-12 bg-dark mt-4 overflow-hidden position-relative">
-              <a href="no link" rel="noreferrer">
-                <div className="p-5 position-absolute top-0 start-0">
-                  <h3 className="text-white fw-bold">
-                    <i>WEBSITE</i>
-                  </h3>
-                </div>
-                <div className="project-image">
-                  <img
-                    src={website}
-                    className="transform-image float-end p-5"
-                    alt="Website Project"
-                  />
-                </div>
-              </a>
+              <div className="p-5 position-absolute top-0 start-0">
+                <h3 className="text-white fw-bold">
+                  <i>WEBSITE</i>
+                </h3>
+              </div>
+              <div className="project-image">
+                <img
+                  src={website}
+                  className="transform-image float-end p-5"
+                  alt="Website Project"
+                />
+              </div>
             </Col>
           </Row>
         </li>
@@ -38,23 +36,21 @@ function Project() {
           <h2>Project 2</h2>
           <Row>
             <Col className="col-12 bg-dark mt-4 overflow-hidden position-relative">
-              <a href="no link" rel="noreferrer">
-                <div className="p-5 position-absolute top-0 start-0">
-                  <h3 className="text-white fw-bold">
-                    <i>Student Internship</i>
-                  </h3>
-                  <h3 className="text-white fw-bold">
-                    <i>Monitoring System</i>
-                  </h3>
-                </div>
-                <div className="project-image">
-                  <img
-                    src={capstone}
-                    className="transform-image float-end p-5"
-                    alt="Capstone Project"
-                  />
-                </div>
-              </a>
+              <div className="p-5 position-absolute top-0 start-0">
+                <h3 className="text-white fw-bold">
+                  <i>Student Internship</i>
+                </h3>
+                <h3 className="text-white fw-bold">
+                  <i>Monitoring System</i>
+                </h3>
+              </div>
+              <div className="project-image">
+                <img
+                  src={capstone}
+                  className="transform-image float-end p-5"
+                  alt="Capstone Project"
+                />
+              </div>
             </Col>
           </Row>
         </li>
@@ -62,20 +58,18 @@ function Project() {
           <h2>Project 3</h2>
           <Row>
             <Col className="col-12 bg-dark mt-4 overflow-hidden position-relative">
-              <a href="no link" rel="noreferrer">
-                <div className="p-5 position-absolute top-0 start-0">
-                  <h3 className="text-white fw-bold">
-                    <i>Personal Portfolio</i>
-                  </h3>
-                </div>
-                <div className="project-image">
-                  <img
-                    src={portfolio}
-                    className="transform-image float-end p-5"
-                    alt="Portfolio Project"
-                  />
-                </div>
-              </a>
+              <div className="p-5 position-absolute top-0 start-0">
+                <h3 className="text-white fw-bold">
+                  <i>Personal Portfolio</i>
+                </h3>
+              </div>
+              <div className="project-image">
+                <img
+                  src={portfolio}
+                  className="transform-image float-end p-5"
+                  alt="Portfolio Project"
+                />
+              </div>
             </Col>
           </Row>
         </li>
