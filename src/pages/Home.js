@@ -47,19 +47,9 @@ function Home() {
           <div className="container px-5 pt-5 box">
             <Row>
               <Col>
-                <h1 className="fs-10 bold-600 mt-auto">
-                  Recent
-                  <br />
-                  Projects
+                <h1 className="fs-1 bold-600 fw-bold mt-auto">
+                  <i>RECENT PROJECTS</i>
                 </h1>
-              </Col>
-              <Col className="d-flex justify-content-center align-items-center">
-                <a
-                  href="./project"
-                  className="btn bg-white btn-xl text-lg fs-5 py-3 px-5 shadow"
-                >
-                  <i className="bi bi-arrow-up-right-square"></i> View All
-                </a>
               </Col>
             </Row>
             <Row className="gap-2">
